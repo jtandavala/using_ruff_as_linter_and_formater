@@ -6,5 +6,4 @@ ignore = ["E501"]
 select = [
     "I001",  # Enforces imports being correctly ordered
     "I002",  # Ensures imports are correctly grouped
-   
 ]
