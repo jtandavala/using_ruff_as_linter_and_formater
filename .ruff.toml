@@ -1,8 +1,9 @@
 line-length = 79
 fix = true
 
+
 [lint]
-ignore = ["E501"]
+extend-select = ["E501"]
 select = [
     "I001",  # Enforces imports being correctly ordered
     "I002",  # Ensures imports are correctly grouped
