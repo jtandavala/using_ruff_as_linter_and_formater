@@ -1,4 +1,3 @@
-import os
 from typing import Iterable
 
 from src.util import print_hello
