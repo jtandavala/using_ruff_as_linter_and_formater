@@ -6,5 +6,7 @@ fix = true
 extend-select = ["E501"]
 select = [
     "I001",  # Enforces imports being correctly ordered
-    "I002",  # Ensures imports are correctly grouped
+    "I002",  # Ensures imports are correctly grouped,
+    "F401",  # Unused imports
+    "F841",  # Unused variables
 ]
